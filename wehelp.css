@@ -13,9 +13,11 @@ span{font-weight: bolder;font-size:larger;}
     align-items: center;
     justify-content: center;
 }
-.headline h2{
+
+.headline div{
     border: 2px;
     font-size: 28px;
+    font-weight: bolder;
 }
 
 .frame{
