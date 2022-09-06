@@ -29,6 +29,10 @@ span{font-weight: bolder;font-size:larger;}
     margin-right: 25%;
 }
 
+.frame div{
+    line-height: 25px;
+}
+
 a{
     text-decoration: none;
     color:rgb(84, 125, 202)
