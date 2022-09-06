@@ -1,0 +1,34 @@
+html{
+    background-image: url(images.jpg);
+}
+
+body{text-align: center;}
+
+span{font-weight: bolder;font-size:larger;}
+
+.headline{
+    background-color: burlywood;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headline h2{
+    border: 2px;
+    font-size: 28px;
+}
+
+.frame{
+    background-color:#ffe6cc;
+    border: 2px solid black;
+    padding: 20px;
+    margin-top: 10px;
+    margin:50px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(84, 125, 202)
+}
