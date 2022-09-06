@@ -37,3 +37,14 @@ a{
     text-decoration: none;
     color:rgb(84, 125, 202)
 }
+
+@media (max-width:900px) {
+    .frame{
+        text-align: left;
+        background-color:#ffe6cc;
+        border: 1px solid black;
+        padding: 30px;
+        margin-top: 10px;
+        margin:35px;
+    }
+} 
