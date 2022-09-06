@@ -1,0 +1,233 @@
+body {
+    margin: 0;
+    background-color: rgb(0, 50, 78)
+}
+.back{
+    display: flex;
+}
+.left{  
+    margin-top: 65px;
+    margin-left: 220px;
+    flex: none;
+    width: 10%;
+    grid-column: start ;
+    border: 1px solid pink;
+}
+.list{
+    position: sticky;
+    top: 68px;
+    height: calc(100vh - 88px);
+    width: 100%;
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+    align-items: center;
+}
+.table{
+    width: 100%;
+    height: 44px;
+    flex: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table:hover{
+    background-color: rgb(1, 28, 44);
+    opacity: 0.5;
+}
+.tab{
+    color:whitesmoke;
+    text-decoration: none ;
+    border:2px ;
+}
+.con{
+    margin: 20px 30px;
+    width: 50%;
+    /* border: 1px solid white; */
+    flex: none;
+    
+}
+.contitle{
+    display: flex;
+    margin-top: 45px;
+    padding: 35px -10px 0px 50px;
+    background-color: white;
+    border-radius: 8px;
+    position: fixed;
+    width: 788.5px;
+    /* max-width: 788.5px;
+    width: 100%;
+    height: 100px;
+    border: 1px solid yellow;
+    align-items: flex-end;
+    justify-content: center; */
+}
+.coti{
+    
+    width: 100%;
+    height: 70px;
+}
+.cot{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.co{
+    flex: none;
+    width: 35%;
+    height: 100%;
+}
+.intitlee{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color:white;
+    justify-content: center;
+    align-items: center;
+}
+.intitle{
+    width: 33.3333333333333%;
+    height: 100%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c{
+    display: flex;
+    width: 65%;
+    height: 100%;
+    justify-content: end;
+}
+.sort{
+    display: flex;
+    flex: none;
+    width: 45%;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+.sort1{
+    margin-right: 17px;
+    flex: none;
+    align-items: center;
+}
+.hot{
+    width: 90px;
+    border-radius: 5px;
+    text-align: center;
+    background-color:rgb(180, 176, 176) ;
+}
+.content{
+    border-top: 1px solid rgb(180, 176, 176);
+    width: 788.5px;
+    margin-top: 130px;
+    border-radius: 5px;
+    background-color: white;
+    flex: none;
+    height: 100vh;
+    position: fixed;
+}
+
+.title{
+    max-width: 100%;
+    width: 100%;
+    height: 48px;
+    background-color: rgb(0, 106, 166);
+    position: fixed;
+}
+.title1{
+    margin: 0px 186px;
+    padding: 0px 20px;
+    width: 80%;
+    height: 48px;
+    display: flex;
+    flex:70%
+}
+.title2{
+    padding: 0px 16px;
+    width: 65%;
+    height: 48px;
+    display: flex;
+    align-items: center;  
+}
+.Word{
+    font-size: 43px;
+}
+.title3{
+    width: 600px;
+    padding: 0px 32px;
+    display:flex;
+    align-items: center;    
+}
+.title4{
+    display: flex;
+    height: 32px;
+    width: 100%;
+}
+.form{
+    display: flex;
+    background: rgb(0, 88, 138);
+    border-radius: 4px;
+    overflow: hidden;
+    width: 100%;
+}
+.inp{
+    flex: 1 1 0%;
+    border: none;
+    background: none;
+    outline: none;
+    height: 100%;
+    padding: 0px 8px;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+}
+.butm{
+    width: 50px;
+    background-color:rgb(0, 106, 166); 
+    border: 1px solid rgb(0, 88, 138);
+}
+.title5{
+    display: flex;
+    flex: 35%;
+    max-width: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.littlepic{
+    flex:20%;
+    display:flex;
+}
+.litpic{
+    width: 60px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    color: rgba(255, 255, 255, 0.6);
+    height: 100%;
+    pointer-events: all;
+    opacity: 1;
+}
+.picspan{
+    display: flex;
+    position: relative;
+    line-height: 1;
+    color: rgb(255, 255, 255);
+}
+#pic{
+    margin: 20px 30px;
+    flex: none;
+    width: 20%;
+    color: aliceblue;
+}
+#pic1{
+    margin: 15px 30px;
+    flex: none;
+    width: 20%;
+    color: aliceblue;
+}
