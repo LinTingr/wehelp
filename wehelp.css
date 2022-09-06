@@ -37,7 +37,9 @@ span{font-weight: bolder;font-size:larger;}
  
 a{
     text-decoration: none;
-    color:rgb(84, 125, 202)
+    color:rgb(84, 125, 202);
+    font-weight:bold ;
+    font-size: large;
 }
 
 @media (max-width:900px) {
