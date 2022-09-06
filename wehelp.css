@@ -19,6 +19,7 @@ span{font-weight: bolder;font-size:larger;}
 }
 
 .frame{
+    text-align: left;
     background-color:#ffe6cc;
     border: 2px solid black;
     padding: 20px;
