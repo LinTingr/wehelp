@@ -8,131 +8,26 @@
     </head>
     <body>        
         <script> 
-            var p=0, k=0, g=0, c=0, m=0, o=0, b=0, l=0, y=0, i=0, a=0, t=0;
-            function tai_c2(p){
-                if (p%2==0){
-                    let about = document.querySelector("#p");
-                    about.style="display:block";
-                }else{
-                    let about = document.querySelector("#p");
-                    about.style="display:none";
-                }
-            }
-            function tai_c1(k){
-                if (k%2==0){
-                    let about = document.querySelector("#k");
-                    about.style="display:block" ;
-                }else{
-                    let about = document.querySelector("#k");
-                    about.style="display:none";
-                }
-            }
-            function tai_c3(g){
-                if (g%2==0){
-                    let about = document.querySelector("#g");
-                    about.style="display:block" ;
-                }else{
-                    let about = document.querySelector("#g");
-                    about.style="display:none";
-                }
-            }
-            function tai_c4(c){
-                if (c%2==0){
-                    let about = document.querySelector("#c");
-                    about.style="display:block" ;
-                }else{
-                    let about = document.querySelector("#c");
-                    about.style="display:none";
-                }
-            }
-            function tai_c5(m){
-                if (m%2==0){
-                    let about = document.querySelector("#m");
-                    about.style="display:block" ;
-                }else{
-                    let about = document.querySelector("#m");
-                    about.style="display:none";
-                }
-            }
-            function tai_c6(o){
-                if (o%2==0){
-                    let about = document.querySelector("#o");
-                    about.style="display:block" ;
-                }else{
-                    let about = document.querySelector("#o");
-                    about.style="display:none";
-                }
-            }
-            function tai_c7(l){
-                if (l%2==0){
-                    let about = document.querySelector("#l");
-                    about.style="display:block" ;
-                }else{
-                    let about = document.querySelector("#l");
-                    about.style="display:none";
-                }
-            }
-            function tai_c8(b){
-                if (b%2==0){
-                    let about = document.querySelector("#b");
-                    about.style="display:block" ;
-                }else{
-                    let about = document.querySelector("#b");
-                    about.style="display:none";
-                }
-            }
-            function tai_c9(y){
-                if (y%2==0){
-                    let about = document.querySelector("#y");
-                    about.style="display:block" ;
-                }else{
-                    let about = document.querySelector("#y");
-                    about.style="display:none";
-                }
-            }
-            function tai_c10(i){
-                if (i%2==0){
-                    let about = document.querySelector("#i");
-                    about.style="display:block" ;
-                }else{
-                    let about = document.querySelector("#i");
-                    about.style="display:none";
-                }
-            }
-            function tai_c11(a){
-                if (a%2==0){
-                    let about = document.querySelector("#a");
-                    about.style="display:block" ;
-                }else{
-                    let about = document.querySelector("#a");
-                    about.style="display:none";
-                }
-            }
-            function tai_c12(t){
-                if (t%2==0){
-                    let about = document.querySelector("#t");
-                    about.style="display:block" ;
-                }else{
-                    let about = document.querySelector("#t");
-                    about.style="display:none";
-                }
+            function toggleM(n){
+                var tapmenu=document.getElementById("tap"+ n);
+                tapmenu.classList.toggle("z");
             }
         </script>
         <div class="title">
             <div class="menu">
                 <div class="loc">
-                    <a href="#" onclick=tai_c2(p++)>北投區</a>
-                    <a href="#" onclick=tai_c3(g++)>士林區</a>
-                    <a href="#" onclick=tai_c4(c++)>大同區</a>
-                    <a href="#" onclick=tai_c5(m++)>中山區</a>
-                    <a href="#" onclick=tai_c6(o++)>內湖區</a>
-                    <a href="#" onclick=tai_c7(l++)>松山區</a>
-                    <a href="#" onclick=tai_c8(b++)>萬華區</a>
-                    <a href="#" onclick=tai_c1(k++)>中正區</a>
-                    <a href="#" onclick=tai_c9(y++)>大安區</a>
-                    <a href="#" onclick=tai_c10(i++)>信義區</a>
-                    <a href="#" onclick=tai_c11(a++)>南港區</a>
-                    <a href="#" onclick=tai_c12(t++)>文山區</a>
+                    <a href="#" onclick=toggleM(1)>北投區</a>
+                    <a href="#" onclick=toggleM(2)>士林區</a>
+                    <a href="#" onclick=toggleM(3)>大同區</a>
+                    <a href="#" onclick=toggleM(4)>中山區</a>
+                    <a href="#" onclick=toggleM(5)>內湖區</a>
+                    <a href="#" onclick=toggleM(6)>松山區</a>
+                    <a href="#" onclick=toggleM(7)>萬華區</a>
+                    <a href="#" onclick=toggleM(8)>中正區</a>
+                    <a href="#" onclick=toggleM(9)>大安區</a>
+                    <a href="#" onclick=toggleM(10)>信義區</a>
+                    <a href="#" onclick=toggleM(11)>南港區</a>
+                    <a href="#" onclick=toggleM(12)>文山區</a>
                     <div><a href="/member">會員中心</a></div>
                 </div>
             </div>
@@ -142,7 +37,7 @@
             <img src="pic/images.jpg" width="1920" height="550">
         </div>
         
-        <div class="z" id="k">
+        <div class="z" id="tap8">
             <div class="gallery" id="Zhongzheng">
                 <a target="_blank" href="pic/avsw.jpg">
                   <img src="pic/avsw.jpg" style="width:180px;height:120px;">
@@ -163,7 +58,7 @@
             </div>
         </div>
 
-        <div class="z" id="p"> 
+        <div class="z" id="tap1"> 
             <div class="gallery" id="valley">
                 <a target="_blank" href="pic/valley.jpg">
                   <img src="pic/valley.jpg" style="width:180px;height:120px;">
@@ -184,7 +79,7 @@
             </div>
         </div>
 
-        <div class="z" id="g">
+        <div class="z" id="tap2">
             <div class="gallery" id="Zhongzheng">
                 <a target="_blank" href="pic/40.jpg">
                   <img src="pic/40.jpg" style="width:180px;height:120px;">
@@ -205,7 +100,7 @@
             </div>
         </div>
 
-        <div class="z" id="c">
+        <div class="z" id="tap3">
             <div class="gallery" id="air">
                 <a target="_blank" href="pic/air.jpg">
                   <img src="pic/air.jpg" style="width:180px;height:120px;">
@@ -220,7 +115,7 @@
             </div>
         </div>
 
-        <div class="z" id="m">
+        <div class="z" id="tap4">
             <div class="gallery" id="air2">
                 <a target="_blank" href="pic/air2.jpg">
                   <img src="pic/air2.jpg" style="width:180px;height:120px;">
@@ -241,7 +136,7 @@
             </div>
         </div>
 
-        <div class="z" id="o">
+        <div class="z" id="tap5">
             <div class="gallery" id="air5">
                 <a target="_blank" href="pic/air5.jpg">
                   <img src="pic/air5.jpg" style="width:180px;height:120px;">
@@ -262,7 +157,7 @@
             </div>
         </div>
 
-        <div class="z" id="l">
+        <div class="z" id="tap6">
             <div class="gallery" id="air8">
                 <a target="_blank" href="pic/air8.jpg">
                   <img src="pic/air8.jpg" style="width:180px;height:120px;">
@@ -271,7 +166,7 @@
             </div>
         </div>
 
-        <div class="z" id="b">
+        <div class="z" id="tap7">
             <div class="gallery" id="air9">
                 <a target="_blank" href="pic/air9.jpg">
                   <img src="pic/air9.jpg" style="width:180px;height:120px;">
@@ -292,7 +187,7 @@
             </div>
         </div>
 
-        <div class="z" id="y">
+        <div class="z" id="tap9">
             <div class="gallery" id="air9">
                 <a target="_blank" href="pic/air12.jpg">
                   <img src="pic/air12.jpg" style="width:180px;height:120px;">
@@ -301,7 +196,7 @@
             </div>
         </div>
 
-        <div class="z" id="i">
+        <div class="z" id="tap10">
             <div class="gallery" id="air13">
                 <a target="_blank" href="pic/air13.jpg">
                   <img src="pic/air13.jpg" style="width:180px;height:120px;">
@@ -322,7 +217,7 @@
             </div>
         </div>
 
-        <div class="z" id="a">
+        <div class="z" id="tap11">
             <div class="gallery" id="air16">
                 <a target="_blank" href="pic/air16.jpg">
                   <img src="pic/air16.jpg" style="width:180px;height:120px;">
@@ -331,7 +226,7 @@
             </div>
         </div>
 
-        <div class="z" id="t">
+        <div class="z" id="tap12">
             <div class="gallery" id="air17">
                 <a target="_blank" href="pic/air17.jpg">
                   <img src="pic/air17.jpg" style="width:180px;height:120px;">
