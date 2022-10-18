@@ -202,9 +202,7 @@ body {
 .litpic{
     width: 60px;
     display: flex;
-    -webkit-box-align: center;
     align-items: center;
-    -webkit-box-pack: center;
     justify-content: center;
     cursor: pointer;
     user-select: none;
